@@ -3,7 +3,7 @@ import streamlit as st
 from streamlit_chat import message
 
 from langchain.llms import OpenAI
-from ingest_data import embed_doc
+from embedd import embed_doc
 from query_data import _template, CONDENSE_QUESTION_PROMPT, QA_PROMPT, get_chain
 import pickle
 import os
