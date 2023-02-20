@@ -12,7 +12,7 @@ api_key = 'vGCEakgncpouo9Nz0rsJ0Bq7XRvwNgTCZMKSohlg'
 
 co = cohere.Client(api_key)
 
-cohere = Cohere(model="command-xlarge-nightly", cohere_api_key="api_key")
+cohere = Cohere(model="command-xlarge-nightly", cohere_api_key=api_key)
 _template = """Given the following conversation and a follow up question, rephrase the follow up question to be a standalone question.
 Chat History:
 {chat_history}
